@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-[Click here for the long version of my CV](http://nehiraygul.github.io/files/Ayguel_LongCV.pdf)
-[Click here for the short version](http://nehiraygul.github.io/files/Ayguel_ShortCV.pdf)
+[Click here for the long version of my CV](http://nehiraygul.github.io/files/Ayguel_LongCV.pdf)  
+[Click here for the short version](http://nehiraygul.github.io/files/Ayguel_ShortCV.pdf)  
 
 Education
 ======
