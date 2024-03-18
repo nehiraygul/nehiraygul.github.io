@@ -9,38 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
+[Click here for the long version of my CV](http://nehiraygul.github.io/files/Ayguel_LongCV.pdf)
+[Click here for the short version](http://nehiraygul.github.io/files/Ayguel_ShortCV.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D Goethe-Universität, RTG Nominal Modification, 2021 - Present
+  * Quantifier Scope: Experimental investigations in Turkish and German
+* Master of Arts in Linguistics. Goethe-Universität, 2018 - 2021
+  * Thesis: Pronoun interpretation and production in Turkish, (Grade: 1,0)
+* Bachelor of Arts in English Linguistics, Hacettepe University, Ankara/Turkey, 2014 - 2018
+  * GPA: 3.47/4.0, Student of Honors
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* May 2021 – Present, Research fellow, Goethe-Universität Frankfurt am Main , Department of Linguistics
+  * conducting experiments, collecting data, applying statistical analysis and experimental methodologies to investigate language processing and cognitive mechanisms
+  * coordinating with collaborators, delivering and presenting reports, organising workshop and conferences
+  * planning budget and establishing KPIs for individual projects
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* April 2020 - May 2021, Student assistant to Prof. Dr. Manfred Sailer, Department of English and American Studies, Goethe-Universität Frankfurt am Main
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -52,13 +41,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
