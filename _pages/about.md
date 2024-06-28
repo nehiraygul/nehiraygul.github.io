@@ -16,4 +16,4 @@ If you want to get in touch, drop  me an email at: ayguel [at] em [dot] uni [das
 
 News
 ======
-Winter Semester 2024-2025: I will be teaching an MA seminar on *Processing Quantification and Scope* at Goethe University.
+**Winter Semester 2024-2025**: I will be teaching an MA seminar on *Processing Quantification and Scope* at Goethe University.
