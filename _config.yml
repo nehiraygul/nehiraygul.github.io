@@ -63,7 +63,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "nehirayguel"
+  twitter          : #"nehirayguel"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -118,7 +118,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : #&twitter
 facebook:
   username               :
   app_id                 :
@@ -197,9 +197,6 @@ kramdown:
 
 # Collections
 collections:
-  #teaching:
-   # output: true
-    #permalink: /:collection/:path/
   publications:
     output: false
     permalink: /:collection/:path/
@@ -209,7 +206,9 @@ collections:
   talks:
     output: false
     permalink: /:collection/:path/
-
+  teaching:
+    output: false
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -222,6 +221,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+        #talksimple
+      author_profile: true
+      share: false
   # _publications
   - scope:
       path: ""
@@ -237,7 +244,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single-portfolio
       author_profile: true
       share: false
 

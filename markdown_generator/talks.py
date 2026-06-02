@@ -66,8 +66,8 @@ loc_dict = {}
 
 for row, item in talks.iterrows():
     
-    md_filename = str(item.date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.date) + "-" + item.url_slug 
+    md_filename = str(item.date) + ".md"
+    html_filename = str(item.date)
     year = item.date[:4]
     
     md = "---\ntitle: \""   + item.title + '"\n'
@@ -91,9 +91,10 @@ for row, item in talks.iterrows():
            
     md += "---\n"
     
-    
-    if len(str(item.talk_url)) > 3:
-        md += "\n[More information here](" + item.talk_url + ")\n" 
+    title_html = f'<span style="color:#004181;">{html_escape(item.title)}</span>'
+    md = f"- {title_html}"
+    #if len(str(item.talk_url)) > 3:
+      #  md += "\n[More information here](" + item.talk_url + ")\n" 
         
     
     if len(str(item.description)) > 3:
